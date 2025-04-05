@@ -91,8 +91,9 @@ public class MenuSistemaTarefa {
                 case 5:
                     System.out.println("Fechando programa...volte sempre");
                     leitor.close();
+                    DejCont = false;
                     break;
-                boolean num = false;
+
                 }
             }
         }
